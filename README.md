@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # BestBeaches
 
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/best_beaches`. To experiment with that code, run `bin/console` for an interactive prompt.
@@ -39,3 +40,7 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/[USERN
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
 
+=======
+# jimlippman-cli-gem
+a cli to scrape a website for the best beaches in Florida
+>>>>>>> 41f27c980bc076f7aff223cca18c7332d874ca58
