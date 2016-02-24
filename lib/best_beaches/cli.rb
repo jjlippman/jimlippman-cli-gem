@@ -20,6 +20,7 @@ class BestBeaches::CLI
   def display_beaches
      BestBeaches::Beach.all.each do |beach|
        puts "#{beach.name }: #{beach.map}"
+       puts "#{beach.location}"
     end
   end
 end
