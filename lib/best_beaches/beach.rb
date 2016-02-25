@@ -19,4 +19,7 @@ class BestBeaches::Beach
     @@all
   end
 
+  def self.find_beach(num)
+    self.all[num]
+  end
 end
