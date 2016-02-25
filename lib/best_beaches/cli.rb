@@ -15,6 +15,7 @@ class BestBeaches::CLI
     
     while input!="E"
       display_beaches
+      puts
       puts "SELECT A BEACH. Enter number."
       
       i=gets.strip
@@ -33,8 +34,11 @@ class BestBeaches::CLI
   end
 
   def display_beach(beach)
+    puts  "-----------------------------------------------------------------"
+    puts "BEACH DESCRIPTION:"
     puts "#{beach.description}"
-    puts
+    puts  "-----------------------------------------------------------------"
     puts "MAP-URL: #{beach.map}" 
+    puts  "-----------------------------------------------------------------"
   end
 end
